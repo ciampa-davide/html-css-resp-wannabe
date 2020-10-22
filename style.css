@@ -80,13 +80,13 @@ img {
     font-size: 30px;
   }
   body{
-    background:blue;;
+    background:blue;
     font-family:Helvetica;
   }
   .row{
+    width: 100%;
     margin: 0 auto;
     background: lightblue;
-    border: 5px solid grey;
 
   }
 
@@ -100,6 +100,7 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
+    width: 100%;
     float: none;
     margin: 5% auto;
 
@@ -117,16 +118,18 @@ img {
 @media screen and (max-width: 420px) {
 
   body{
-    font-size: 30px;
+    font-size: 18px;
     background: lightgrey;
     font-family:  arial;
   }
   .row{
+    width: 100%;
     background: lightgrey;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right{
+    width: 100%;
     float: none;
     margin: 5% auto;
   }
@@ -134,6 +137,7 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
+    width: 100%;
     float: none;
     margin: 5% auto;
 
